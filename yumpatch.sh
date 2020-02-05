@@ -7,5 +7,5 @@ sleep 30
 if [[ -f "/pipeline" ]]; then 
     echo "Pipeline exisits"
 else
-    exit 1
+    exit 0
 fi
