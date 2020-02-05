@@ -4,8 +4,8 @@ echo "Initializing yum script"
 sleep 30
 
 
-if [[ -f "/pipeline" ]]; then 
+if [[ -f "/tmp/pipeline" ]]; then 
     echo "Pipeline exisits"
 else
-    exit 0
+    exit 1
 fi
